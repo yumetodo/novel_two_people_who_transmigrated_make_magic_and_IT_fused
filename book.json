@@ -1,0 +1,14 @@
+{
+  "gitbook": ">=3.0.0",
+  "title": "星月夜の窓",
+  "description": "当サイトはのんびり気ままな二次創作サイトです。",
+  "root": "./source/",
+  "structure": {
+    "readme": "index.html.md",
+    "summary": "README.md"
+  },
+  "plugins": [
+    "include-codeblock",
+    "markdown-parse-add-br"
+  ]
+}
