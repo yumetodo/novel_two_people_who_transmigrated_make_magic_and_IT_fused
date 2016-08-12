@@ -1,3 +1,7 @@
+---
+author: yumetodo
+---
+
 # 転生した二人は魔術とITを融合させる(Two people who transmigrated make magic and IT fused)
 ## 魔法科高校の劣等生
 ### 横浜騒乱編〈下〉
