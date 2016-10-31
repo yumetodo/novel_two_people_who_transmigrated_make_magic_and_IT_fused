@@ -3,6 +3,8 @@
 - [Harry Potter](harry_potter/README.md)
     - [設定](harry_potter/settings/README.md)
     - [0巻 : 入学前](harry_potter/before_admission/README.md)
+        - [転生前のお話](harry_potter/before_admission/before_transmigrate/README.md)
+        - [転生とその代償](harry_potter/before_admission/a_cost_of_transmigrate/README.md)
         - [転生してみた(凛の場合)](harry_potter/before_admission/transmigrated_side_rynne/README.md)
         - 転生してみた(聖一の場合)
         - [ハリーとの遭遇](harry_potter/before_admission/encounter_with_Harry/README.md)
