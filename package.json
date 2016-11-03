@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prepublish": "gitbook install",
-    "start": "gitbook serve",
+    "serve": "gitbook serve",
     "build": "gitbook build",
     "eslint": "eslint source/",
     "eslint:fix": "eslint --fix source/",

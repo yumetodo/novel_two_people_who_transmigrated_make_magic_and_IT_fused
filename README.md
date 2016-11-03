@@ -32,7 +32,7 @@ GitBookのbuildかつWatchをします。
 
 次のコマンドを実行後、[http://localhost:4000/](http://localhost:4000/)へアクセスすることでプレビューを見られます。
 
-    npm run start
+    npm run serve
     # open http://localhost:4000/
 
 
