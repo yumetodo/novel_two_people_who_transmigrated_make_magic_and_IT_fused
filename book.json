@@ -1,14 +1,13 @@
 {
-  "gitbook": ">=3.0.0",
-  "title": "星月夜の窓",
-  "description": "当サイトはのんびり気ままな二次創作サイトです。",
+  "gitbook": ">=3.2.1",
+  "title": "転生した二人は魔術とITを融合させる",
+  "description": "転生した二人は魔術とITを融合させる | 三次創作",
   "root": "./source/",
   "structure": {
     "readme": "index.html.md",
     "summary": "README.md"
   },
   "plugins": [
-    "include-codeblock",
-    "markdown-parse-add-br"
+    "include-codeblock"
   ]
 }
