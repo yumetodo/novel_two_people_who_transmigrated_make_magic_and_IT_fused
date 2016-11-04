@@ -13,6 +13,7 @@
 
 ## Installation
 
+    npm install -g gitbook-cli
     npm install
 
 Node.js 6.0.0以上が必要です。
@@ -35,6 +36,33 @@ GitBookのbuildかつWatchをします。
     npm run serve
     # open http://localhost:4000/
 
+### Trouble Shooting
+
+#### buildに失敗する
+
+GitBook3.2.1を使っている場合、buildに失敗することがわかっています。
+
+    gitbook update
+    
+して最新のGitBookを使うようにしてください
+
+#### serveに失敗する(Linux)
+
+ファイルを監視するディスクリプタの許容数を超えてしまい、失敗することがあります。
+
+```sh
+$ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
+
+してください。
+
+#### 改行がおかしい
+
+Gitbook3.2.1以前を利用している場合に発生します。
+
+    gitbook update
+
+してGitBook3.2.2以降を使うようにしてくだい
 
 ## Contributing
 
