@@ -1,5 +1,7 @@
 # 転生した二人は魔術とITを融合させる(Two people who transmigrated make magic and IT fused)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yumetodo/novel_two_people_who_transmigrated_make_magic_and_IT_fused.svg)](https://greenkeeper.io/)
+
 大体は
 
 - [星月夜の窓](http://wayback.archive.org/web/20140501091437/http://hosidukiyo.at-ninja.jp/novel_c/cm_idx.html)
