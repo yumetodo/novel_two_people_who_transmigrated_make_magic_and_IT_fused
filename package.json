@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "description": "当サイトはのんびり気ままな二次創作サイトです。",
   "scripts": {
-    "textlint": "summary-to-path ./source/README.md | xargs textlint -f pretty-error",
+    "textlint": "textlint src/",
     "textlint:fix": "summary-to-path ./source/README.md | xargs textlint --fix",
     "lint": "npm-run-all --parallel textlint",
     "lint:fix": "npm-run-all --parallel textlint:fix",
@@ -19,6 +19,7 @@
     "npm-run-all": "^4.1.5",
     "textlint": "^11.2.5",
     "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-ja-no-abusage": "^2.0.0",
     "textlint-rule-preset-ja-technical-writing": "^3.1.2",
     "textlint-rule-prh": "^5.2.1"
   }

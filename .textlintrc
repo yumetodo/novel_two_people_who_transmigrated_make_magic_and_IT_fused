@@ -3,6 +3,7 @@
     "comments": true
   },
   "rules": {
+    "ja-no-abusage": true,
     "preset-ja-technical-writing": {
       "max-kanji-continuous-len": {
         "max": 6,
@@ -19,11 +20,6 @@
           "排他的論理和演算子"
         ]
       }
-    },
-    "prh": {
-      "rulePaths": [
-        "prh.yml"
-      ]
     }
   }
 }
