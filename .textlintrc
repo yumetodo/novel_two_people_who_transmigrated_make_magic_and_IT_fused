@@ -20,9 +20,6 @@
         ]
       }
     },
-    "eslint": {
-      "configFile": "./config/markdown.eslintrc.js"
-    },
     "prh": {
       "rulePaths": [
         "prh.yml"
