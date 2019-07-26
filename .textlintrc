@@ -10,18 +10,7 @@
       "ja-no-successive-word": false,
       "ja-no-weak-phrase": false,
       "no-mix-dearu-desumasu": false,
-      "no-doubled-joshi": {
-        "allow": [
-          "たり",
-          "否や",
-          "やら",
-          "にとっても",
-          "でも",
-          "ても",
-          "も",
-          "は"
-        ]
-      },
+      "no-doubled-joshi": false,
       "max-kanji-continuous-len": {
         "max": 6,
         "allow": [
