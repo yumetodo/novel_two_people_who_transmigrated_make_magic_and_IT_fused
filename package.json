@@ -6,7 +6,7 @@
   "description": "当サイトはのんびり気ままな二次創作サイトです。",
   "scripts": {
     "textlint": "textlint src/",
-    "textlint:fix": "summary-to-path ./source/README.md | xargs textlint --fix",
+    "textlint:fix": "textlint --fix src/",
     "lint": "npm-run-all --parallel textlint",
     "lint:fix": "npm-run-all --parallel textlint:fix",
     "test": "npm-run-all -l --parallel lint"
